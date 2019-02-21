@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, newName){
 }
 
 function nowServing(katzDeliLine){
-  var message
+  var message;
   if(katzDeliLine.length > 0){
     message = "Currently serving "+katzDeliLine[0]+".";
     katzDeliLine.splice(0, 1);
@@ -18,5 +18,6 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(){
+  var message = ""
   
 }
