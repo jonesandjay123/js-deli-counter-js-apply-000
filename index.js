@@ -9,7 +9,7 @@ function nowServing(katzDeliLine){
   var message
   if(katzDeliLine.length > 0){
     message = "Currently serving "+katzDeliLine[0]+".";
-    array.splice(0, 1);
+    katzDeliLine.splice(0, 1);
   }
   else{
     message = "There is nobody waiting to be served!";
