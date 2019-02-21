@@ -1,3 +1,4 @@
-function takeANumber(){
+function takeANumber(katzDeliLine, newName){
   
+  return ""
 }
