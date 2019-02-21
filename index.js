@@ -19,6 +19,8 @@ function nowServing(katzDeliLine){
 
 function currentLine(){
   var message = "The line is currently: ";
-  
+  for (i = 0; i < 5; i++) {
+    text += "The number is " + i + "<br>";
+  }
   
 }
