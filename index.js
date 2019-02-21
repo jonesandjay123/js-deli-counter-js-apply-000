@@ -6,5 +6,12 @@ function takeANumber(katzDeliLine, newName){
 }
 
 function nowServing(katzDeliLine){
-  
+  var message
+  if(katzDeliLine.length > 0){
+    
+  }
+  else{
+    
+  }
+  re
 }
