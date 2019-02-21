@@ -22,18 +22,18 @@ function currentLine(){
   
   if(katzDeliLine.length > 0){
       for(var i = 0; i < katzDeliLine.length; i++){
-    var postion = i + 1;
-    
-    var m = postion + ". "+katzDeliLine[i];
-    if(i!=katzDeliLine.length){
-      m += ",";
+      var postion = i + 1;
+      
+      var m = postion + ". "+katzDeliLine[i];
+      if(i!=katzDeliLine.length){
+        m += ",";
+      }
+      
+   
     }
-    
- 
-  }
   }
   else{
-    message = "There is nobody waiting to be served!";
+    message = "The line is currently empty.";
   }
 
   
