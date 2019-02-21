@@ -18,6 +18,7 @@ function nowServing(katzDeliLine){
 }
 
 function currentLine(){
-  var message = ""
+  var message = "The line is currently: ";
+  
   
 }
