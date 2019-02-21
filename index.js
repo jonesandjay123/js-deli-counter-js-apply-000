@@ -28,13 +28,12 @@ function currentLine(){
       if(i!=katzDeliLine.length){
         m += ",";
       }
-      
-   
+      message += m; 
     }
   }
   else{
     message = "The line is currently empty.";
   }
-
+  return message;
   
 }
