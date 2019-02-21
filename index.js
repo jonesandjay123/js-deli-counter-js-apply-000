@@ -16,3 +16,7 @@ function nowServing(katzDeliLine){
   }
   return message;
 }
+
+function currentLine(){
+  
+}
