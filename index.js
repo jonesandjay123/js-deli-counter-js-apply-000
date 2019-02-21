@@ -5,4 +5,6 @@ function takeANumber(katzDeliLine, newName){
   return message;
 }
 
-function
+function nowServing(katzDeliLine){
+  
+}
