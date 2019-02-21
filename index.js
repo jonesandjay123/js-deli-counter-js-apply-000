@@ -11,7 +11,7 @@ function nowServing(katzDeliLine){
     
   }
   else{
-    
+    message = ""
   }
-  re
+  return message;
 }
