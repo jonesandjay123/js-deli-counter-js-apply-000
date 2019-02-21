@@ -1,4 +1,4 @@
 function takeANumber(katzDeliLine, newName){
-  
-  return ""
+  var message = "Welcome, "
+  return 
 }
