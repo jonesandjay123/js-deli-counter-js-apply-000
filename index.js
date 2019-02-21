@@ -19,12 +19,22 @@ function nowServing(katzDeliLine){
 
 function currentLine(){
   var message = "The line is currently: ";
+  
   if(katzDeliLine.length > 0){
-    message = "Currently serving "+katzDeliLine[0]+".";
-    katzDeliLine.splice(0, 1);
+      for(var i = 0; i < katzDeliLine.length; i++){
+    var postion = i + 1;
+    
+    var m = postion + ". "+katzDeliLine[i];
+    if(i!=katzDeliLine.length){
+      m += ",";
+    }
+    
+ 
+  }
   }
   else{
     message = "There is nobody waiting to be served!";
   }
+
   
 }
